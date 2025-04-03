@@ -12,7 +12,7 @@ This repository contains the code and explanation for a data preprocessing pipel
 Essential libraries such as pandas, numpy, sklearn, and matplotlib are used for data manipulation, preprocessing, and visualization.
 # 2. Load the Dataset
 ``` import pandas as pd
-``` data = pd.read_csv("your_dataset.csv")
+data = pd.read_csv("your_dataset.csv")
 
 # 3. Exploratory Data Analysis (EDA)
 - Check for null values and data types.
