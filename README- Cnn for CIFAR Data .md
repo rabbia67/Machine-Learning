@@ -19,8 +19,7 @@ Input → Conv2D(32) → BN → Conv2D(32) → BN → MaxPool → Dropout
       → Flatten → Dense(128) → BN → Dropout → Dense(10, softmax)
 # 📦 Requirements
 Install dependencies using pip:
-<pre> pip install tensorflow <pre>
-<pre> matplotlib scikit-learn <pre>
+<pre> ```bash pip install tensorflow matplotlib scikit-learn ``` </pre>
 # ▶️ Running the Code
 python cnn_for_cifar_data.py
 # 📊 Training Details
