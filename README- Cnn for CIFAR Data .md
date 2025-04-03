@@ -13,12 +13,13 @@ The model uses the CIFAR-10 dataset, which includes:
 - 10,000 test images
 - 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 # 🏗️ Model Architecture
-```text
-Input 
-  → Conv2D(32) → BN → Conv2D(32) → BN → MaxPool → Dropout
-  → Conv2D(64) → BN → Conv2D(64) → BN → MaxPool → Dropout
-  → Conv2D(128) → BN → Conv2D(128) → BN → MaxPool → Dropout
-  → Flatten → Dense(128) → BN → Dropout → Dense(10, softmax)
+- Input Layer
+- Conv2D(32) → BatchNorm → Conv2D(32) → BatchNorm → MaxPooling → Dropout
+- Conv2D(64) → BatchNorm → Conv2D(64) → BatchNorm → MaxPooling → Dropout
+- Conv2D(128) → BatchNorm → Conv2D(128) → BatchNorm → MaxPooling → Dropout
+- Flatten
+- Dense(128) → BatchNorm → Dropout
+- Dense(10, activation='softmax')
 # 📦 Requirements
 Install dependencies using pip:
 <pre>  pip install tensorflow matplotlib scikit-learn  </pre>
