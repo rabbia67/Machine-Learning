@@ -1,4 +1,4 @@
-## Project Structure
+## Repository Structure
 
 - **Data preprocessing**: Contains scripts  for cleaning and preprocessing ECG data.
 - **ECG ML**:  Includes machine learning models and training scripts for ECG classification using various ML models.
